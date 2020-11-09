@@ -116,26 +116,7 @@ public class BookList {
                 current.book.display();
             }
         }
-        // //print all the books in the list
-        // BookList target = this;
-        // int count = 0;
-        // int size = this.sizeOf();
-
-        // if (isEmpty()){
-        //     System.out.println("Empty List");
-        // }
-        // else if (!isEmpty()){
-        //     // target = this;
-        //     while (target.next != null){
-        //         target.book.display();
-        //         target = target.next;
-                
-                
-        //         ++count;
-        //         System.out.println(count + "/" + size);
-        //     }
-        //     target.next = new BookList(book);
-        // }
+         
     }
     
 	public int sizeOf() {
